@@ -25,7 +25,7 @@ namespace SeuManoelPackingApi.DTOs
         [JsonPropertyName("produtos")]
         public List<string> Produtos { get; set; }
 
-        [JsonPropertyName("observacao")]
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public string? Observacao { get; set; }
     }
 }
