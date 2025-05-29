@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "SeuManoelPackingApi.Controllers.PedidosController",
+    "Method": "EmbalarPedidos",
+    "RelativePath": "api/Pedidos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SeuManoelPackingApi.DTOs.PedidoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
